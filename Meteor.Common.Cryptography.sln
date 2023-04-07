@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3415767D-925E-47D3-91AF-70BABD2232F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor.Common.Cryptography", "src\Meteor.Common.Cryptography\Meteor.Common.Cryptography.csproj", "{7C74E775-E007-4C9B-9727-589C484F32F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor.Common.Cryptography.Abstractions", "src\Meteor.Common.Cryptography.Abstractions\Meteor.Common.Cryptography.Abstractions.csproj", "{50E61700-9DDB-4797-8CB4-5F0A5BCD3893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EFBDA475-6641-43F0-94FF-659C1EC7AB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor.Common.Cryptography.Tests", "tests\Meteor.Common.Cryptography.Tests\Meteor.Common.Cryptography.Tests.csproj", "{C4DE2E6F-779A-4BC8-B240-299EB4633161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteor.Common.Cryptography.DependencyInjection", "src\Meteor.Common.Cryptography.DependencyInjection\Meteor.Common.Cryptography.DependencyInjection.csproj", "{1D825110-E02C-4E21-A9A3-A0C252F86D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C74E775-E007-4C9B-9727-589C484F32F9} = {3415767D-925E-47D3-91AF-70BABD2232F4}
+		{50E61700-9DDB-4797-8CB4-5F0A5BCD3893} = {3415767D-925E-47D3-91AF-70BABD2232F4}
+		{C4DE2E6F-779A-4BC8-B240-299EB4633161} = {EFBDA475-6641-43F0-94FF-659C1EC7AB06}
+		{1D825110-E02C-4E21-A9A3-A0C252F86D8B} = {3415767D-925E-47D3-91AF-70BABD2232F4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C74E775-E007-4C9B-9727-589C484F32F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C74E775-E007-4C9B-9727-589C484F32F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C74E775-E007-4C9B-9727-589C484F32F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C74E775-E007-4C9B-9727-589C484F32F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E61700-9DDB-4797-8CB4-5F0A5BCD3893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E61700-9DDB-4797-8CB4-5F0A5BCD3893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E61700-9DDB-4797-8CB4-5F0A5BCD3893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E61700-9DDB-4797-8CB4-5F0A5BCD3893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DE2E6F-779A-4BC8-B240-299EB4633161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DE2E6F-779A-4BC8-B240-299EB4633161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DE2E6F-779A-4BC8-B240-299EB4633161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DE2E6F-779A-4BC8-B240-299EB4633161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D825110-E02C-4E21-A9A3-A0C252F86D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D825110-E02C-4E21-A9A3-A0C252F86D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D825110-E02C-4E21-A9A3-A0C252F86D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D825110-E02C-4E21-A9A3-A0C252F86D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

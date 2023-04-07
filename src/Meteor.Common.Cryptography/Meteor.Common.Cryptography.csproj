@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Slava Germonenko</Authors>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/GermonenkoBy/Meteor.Common.Cryptography</RepositoryUrl>
+        <PackageId>Meteor.Common.Cryptography</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="7.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Meteor.Common.Cryptography.Abstractions\Meteor.Common.Cryptography.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>
